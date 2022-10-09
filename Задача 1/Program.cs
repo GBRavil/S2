@@ -9,6 +9,7 @@ int number = Convert.ToInt32(s1);
 // } else {
 //     Console.WriteLine("Введеный день недели не выходной");
 // }
+Weekend(week, number);
 void Weekend (int[] w, int n){
     int length = w.Length;
     int i = 0;
@@ -20,4 +21,3 @@ void Weekend (int[] w, int n){
         Console.WriteLine("Введеный день недели не выходной");
     }    
 }
-Weekend(week, number);
